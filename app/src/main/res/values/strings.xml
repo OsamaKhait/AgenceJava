@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Agence Immo</string>
+    <string name="title_nouvel_appartement">Nouvel Appartement</string>
+    <string name="hint_rue">Rue</string>
+    <string name="hint_ville">Ville</string>
+    <string name="hint_code_postal">Code postal</string>
+    <string name="hint_etage">Etage</string>
+    <string name="checkbox_ascenseur">Ascenseur</string>
+    <string name="button_creer">CRÉER</string>
+
+    <string name="button_ajouter_piece">Ajouter une pièce</string>
+
+    <string-array name="types_de_piece">
+        <item>Salon</item>
+        <item>Chambre</item>
+        <item>Salle de bains</item>
+        <item>Cuisine</item>
+        <item>Bureau</item>
+    </string-array>
+
+</resources>

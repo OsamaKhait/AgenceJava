@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <!-- Type de pièce -->
+    <Spinner
+        android:id="@+id/spinnerTypePiece"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Champ Niveau -->
+    <EditText
+        android:id="@+id/editTextNiveau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Niveau" />
+
+    <!-- Champ Longueur -->
+    <EditText
+        android:id="@+id/editTextLongueur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Longueur (m)" />
+
+    <!-- Champ Largeur -->
+    <EditText
+        android:id="@+id/editTextLargeur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Largeur (m)" />
+
+    <!-- Bouton Créer -->
+    <Button
+        android:id="@+id/buttonCreer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Créer"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

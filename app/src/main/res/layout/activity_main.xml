@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <!-- Titre -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_nouvel_appartement"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Champ Rue -->
+    <EditText
+        android:id="@+id/editTextRue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_rue" />
+
+    <!-- Champ Ville -->
+    <EditText
+        android:id="@+id/editTextVille"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_ville"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Champ Code Postal -->
+    <EditText
+        android:id="@+id/editTextCodePostal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_code_postal"
+        android:layout_marginTop="8dp"
+        android:inputType="number" />
+
+    <!-- Champ Etage -->
+    <EditText
+        android:id="@+id/editTextEtage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_etage"
+        android:layout_marginTop="8dp"
+        android:inputType="number" />
+
+    <!-- Case à cocher pour Ascenseur -->
+    <CheckBox
+        android:id="@+id/checkBoxAscenseur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox_ascenseur"
+        android:layout_marginTop="8dp" />
+
+    <!-- Bouton Créer -->
+    <Button
+        android:id="@+id/buttonCreer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_creer"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/colorPrimary"/>
+</LinearLayout>

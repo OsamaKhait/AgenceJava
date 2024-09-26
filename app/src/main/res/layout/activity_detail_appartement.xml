@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <!-- Affichage des détails de l'appartement -->
+    <TextView
+        android:id="@+id/textViewDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:lineSpacingExtra="4dp" /> <!-- Optionnel : ajoute un espacement entre les lignes -->
+
+
+    <!-- Bouton pour ajouter une pièce -->
+    <Button
+        android:id="@+id/buttonAjouterPiece"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_ajouter_piece"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
